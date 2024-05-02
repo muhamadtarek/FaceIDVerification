@@ -11,7 +11,7 @@
 <p>The <strong>Selfies</strong> directory contains live camera photos of individuals, which are used for verification purposes. Each selfie corresponds to a person whose national ID is stored in the <strong>IDs</strong> directory.</p>
 
 <h2>Model and Training</h2>
-<p>We utilized a Siamese network architecture with triplet loss for face verification. The model was trained from scratch using a convolutional neural network (CNN) architecture. No pre-trained models were used in the training process.</p>
+<p>We utilized a Siamese network architecture with binary loss for face verification. The model was trained from scratch using a convolutional neural network (CNN) architecture. No pre-trained models were used in the training process.</p>
 
 <h2>Dataset</h2>
 <p>The model was trained on the Labeled Faces in the Wild (LFW) dataset. The training achieved a validation accuracy of 72%.</p>
