@@ -1,6 +1,5 @@
 # FaceIDVerification
- validating peoples faces using their Ids
- 
+
 you should create two main directories: IDs and Selfies.
 
 IDs
